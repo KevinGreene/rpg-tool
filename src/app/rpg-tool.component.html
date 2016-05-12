@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<h1> {{title}} </h1>
+<h2>Powers</h2>
+<ul class="powers">
+  <li *ngFor="let power of powers" (click)="onSelect(power)">
+    <span class="badge">{{power.id}}</span> {{power.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedPower">
+  <power-detail [power]="selectedPower"></power-detail>
+</div>
