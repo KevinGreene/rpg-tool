@@ -9,7 +9,7 @@ import {
 import {ComponentFixture, TestComponentBuilder} from '@angular/compiler/testing';
 import {Component} from '@angular/core';
 import {By} from '@angular/platform-browser';
-import {PowerComponent} from './power.component';
+import {PowerComponent} from './power.component.ts';
 
 describe('Component: Power', () => {
   let builder:TestComponentBuilder;

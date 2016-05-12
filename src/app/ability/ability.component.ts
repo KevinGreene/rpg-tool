@@ -1,9 +1,9 @@
 import {Component, OnInit, Input} from '@angular/core';
-import {Ability} from "ability";
+import {Ability} from "./ability";
 
 @Component({
   moduleId: module.id,
-  selector: 'app-ability',
+  selector: 'ability-detail',
   templateUrl: 'ability.component.html',
   styleUrls: ['ability.component.css']
 })

@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {PowerComponent} from './power/power.component';
+import {PowerComponent} from './power/show/power.component.ts';
 import {Power} from './power/power.ts';
 import {DiceValue} from './power/dice-value';
 
