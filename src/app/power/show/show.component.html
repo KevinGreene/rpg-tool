@@ -1,0 +1,19 @@
+<div>
+  <label for="selected-power-id">
+    ID:
+  </label>
+  <div id="selected-power-id">
+    {{power.id}}
+  </div>
+  <label for="selected-power-name">
+    Name:
+  </label>
+  <input name="selected-power-name" type="text" id="selected-power-name" [(ngModel)]="power.name">
+  <label for="selected-power-description">
+    Description:
+  </label>
+  <input name="selected-power-description" type="text" id="selected-power-description" [(ngModel)]="power.description">
+  <li *ngFor="let ability of power.abilities">
+    {{ability.name}}
+  </li>
+</div>

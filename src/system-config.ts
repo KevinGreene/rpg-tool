@@ -29,6 +29,9 @@ const barrels:string[] = [
   'app/shared',
   'app/power',
   'app/ability',
+  'app/+power',
+  'app/power/show',
+  'app/power/edit',
   /** @cli-barrel */
 ];
 

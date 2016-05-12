@@ -1,1 +1,1 @@
-export {PowerComponent} from './show/power.component.ts';
+export {PowerComponent} from './power.component';
